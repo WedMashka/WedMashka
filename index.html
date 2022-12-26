@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="description" content="Онлайн расклад на картах Таро, по только фотографии, имени и дате рождения">
+	<meta name="keywords" content="Таро, онлайн, гадание, предсказание, карты, работа, любовь, магия">
+	<meta name="author" content="RegulusBlack">
+	<meta name="copyrigth" content="IonaKuznetsov +79064510910">
+	<meta name="address" content="dubovka gogola 12">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Расклад на таро</title>
+</head>
+<body class="body">
+	<div class="baner" onclick="showContetn()" id="baner">
+		<div class="baner__box" >
+			<div class="baner__box-bottom">
+				<img class="bottom__logo" src="img/Logo.png" alt="">
+				<p class="baner__text">
+				Хочешь расклад <br>на таро? <br> Жми!
+				</p>
+				<div>
+					<img class="fire" src="img/свеча.gif" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="logo__box">
+				<img class="fire__logo" src="img/свеча.gif" alt="">
+					<img class="header__logo" src="img/Logo.png" alt="">
+				</div>
+				<div class="heder__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li>
+								<a data-goto=".page__section1" href="#" class="menu__link">Oбо мне</a>
+							</li>
+							<li class="menu__sub">
+								<a data-goto=".page__section2" href="#" class="menu__link">Расклады</a>
+								<span class="menu__arrow"></span>
+								<ul class="menu__sub-list">
+									<li>
+										<a data-goto=".page__section21"  href="#" class="menu__sub-link">Рассклады на вопрос - ответ</a>
+									</li>
+									<li>
+										<a data-goto=".page__section22" href="#" class="menu__sub-link">Расклады на ситуацию и события</a>
+									</li>
+									<li>
+										<a data-goto=".page__section23" href="#" class="menu__sub-link">Расклад на отношения, любовь</a>
+									</li>
+									<li>
+										<a data-goto=".page__section24" href="#" class="menu__sub-link">Расклады на работу и деньги</a>
+									</li>
+									<li>
+										<a data-goto=".page__section25" href="#" class="menu__sub-link">Психологические расклады</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a data-goto=".page__section3" href="#" class="menu__link">Вопрос-ответ</a>
+							</li>
+							<li class="cont__box">
+								<a   href="#" class="menu__link menu__contacts">Контакты</a>
+								<div class="nav__contacts" id="navContacts">
+									<div class="links links2">
+										<div class="tell tell2">
+											<p class="name__text">Мария</p>
+											<p class="tell__text"> <a href="tel:+79608674855" class="tell__text">+79608674855</a></p>
+										</div>
+										<div class="box__link">
+											<a href="https://t.me/Taksebemamaya" target="_blank">
+												<img src="img/img/t.png" alt="" class="link__img" /> </a>
+											<a href="https://vk.com/niklenko" target="_blank">
+												<img src="img/img/v.png" alt="" class="link__img" /></a>
+											<a href="https://www.instagram.com/tak.sebe.mama" target="_blank">
+												<img src="img/img/i.png" alt="" class="link__img" />
+											</a>
+											<a href="https://wa.me/+79608674855" target="_blank">
+												<img src="img/img/w.png" alt="" class="link__img" /></a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__section page__section1">
+				<h1 class="page__title">
+					Обо мне
+				</h1>
+				<div class="page__text">
+					<div class="img__ava2">
+					<img id="ava" src="img/ava3.jpg" class="img__ava" alt=""/>
+					</div>
+					<p>
+					Меня зовут Мария и я такая же, как вы...
+					Я училась в обычной школе, закончила университет и получила диплом историка. Никаких Хогвартсов, никакого зельеварения.
+					Работала ведущим специалистом в банке, заводила семью, покупала квартиру. Всё, как у всех.
+					</p>
+					<p>
+					Однако, у жизни были немного другие планы на меня. Так сложилось, что я потеряла своих родителей, одного за другим. Уход
+					из жизни каждого из них мне предсказали сны. Справившись с горем и продолжая жить дальше, я начала пытаться разобраться
+					в природе своих видений. Изучение изотерики и духовных практик привело меня к Таро.
+					</p>
+					<p>
+					Первые расклады робко делала сама
+					себе, своим близким и друзьям. Я не была уверена в своих способностях, но отзывы моих клиентов давали мне силы двигаться
+					дальше. На сегодняшний день я окончательно осознала свое место в этом мире, профессионально занимаюсь раскладами Таро и
+					помогаю каждому, кто обратится ко мне за помощью или советом. Если у вас есть вопрос ко Вселенной или проблема,
+					требующая решения - пишите и мы будем искать выход вместе при помощи Таро.</p>
+				</div>
+				<div class="links__contacts">
+					<div class="tell">
+						<p class="name__text">Мария</p>
+				
+						<p class="tell__text"> <a href="tel:+79608674855" class="tell__text tell__text2">+79608674855</a></p>
+					</div>
+					<div class="box__links-contacts">
+						<a href="https://t.me/Taksebemamaya" target="_blank">
+							<img src="img/img/t.png" alt="" class="link__img" /> </a>
+						<a href="https://vk.com/niklenko" target="_blank">
+							<img src="img/img/v.png" alt="" class="link__img" /></a>
+						<a href="https://www.instagram.com/tak.sebe.mama" target="_blank">
+							<img src="img/img/i.png" alt="" class="link__img" />
+						</a>
+						<a href="https://wa.me/+79608674855" target="_blank">
+							<img src="img/img/w.png" alt="" class="link__img" /></a>
+					</div>
+				</div>
+			</section>
+			<section class="page__section page__section2">
+				<h1 class="page__sub-title">
+					Расклады
+				</h1>
+			</section>
+			<div class="page__section page__section21">
+				<h2 class="page__sub-title">
+					Рассклады на вопрос - ответ
+				</h2>
+				<div class="page__box">
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Гадание на одну карту
+						</p>
+						<p class="body__text">
+							<img src="img/on one kard.jpg" alt="">
+							Используется одна карта - ответ на один вопрос.
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Гадание на одну карту
+						</p>
+						<p class="body__text">
+							<img  src="img/on 3 cadr.jpg" alt="">
+							Используется три карты, вопрос - что делать в ситуации.
+							Что при этом говорят карты:
+						<ul>
+							<li class="two__box-li">
+								Как действовать в данной ситуации, какие могут возникнуть препятствия и трудности</li>
+							<li class="two__box-li">
+								Что делать с полученной информацией</li>
+							<li class="two__box-li">
+								Чего ни в коем случае нельзя делать с полученной информацией.</li class="two__box-li">
+						</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section22">
+				<h2 class="page__sub-title">
+					Расклады на ситуацию и события
+				</h2>
+				<div class="page__box">
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Расклад на неделю
+						</p>
+						<p class="body__text">
+							<img src="img/on week.jpg" alt="">
+							Используется 7 карт, соответствующие дням недели.
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Пирамида
+						</p>
+						<p class="body__text">
+							<img src="img/piramida.jpg"  alt="">
+							Включает в себя анализ положительных и отрицательных сторон проблемы \вопроса. Используется 8 карт.
+							Карты отвечают на вопросы:
+							<ul>
+								<li class="two__box-li">
+									Текущее положение дел</li>
+								<li class="two__box-li">
+									Ваше общее состояние - положение и реакция на ситуацию</li>
+								<li class="two__box-li">
+									Положительные аспекты</li>
+								<li class="two__box-li">
+									Отрицательные аспекты</li>
+								<li class="two__box-li">
+									Что повлияет на ситуацию независимо от вас</li>
+								<li class="two__box-li">
+									На что вы можете повлиять</li>
+								<li class="two__box-li">
+									Дальнейшее развитие событий</li>
+								<li class="two__box-li">
+									Итог - что уйдет , что придет, к чему нужно приложить усилия.</li>
+							</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Глубина
+						</p>
+						<p class="body__text">
+							<img src="img/glubina.jpg" alt="">
+							Раскрывает подводные камни ситуации. Используется 8 карт.
+							Что говорят карты:
+						<ul>
+							<li class="two__box-li">
+								Что скрытое подавляется человеком</li>
+							<li class="two__box-li">
+								Что спровоцировало ситуацию</li>
+							<li class="two__box-li">
+								Как можно было ее избежать</li>
+							<li class="two__box-li">Что делать, как себя вести
+							</li>
+							<li class="two__box-li">Скрытые причины ситуации
+							</li>
+							<li class="two__box-li">Как влияет ситуация на эмоциональное состояние человека
+							</li>
+							<li class="two__box-li">Как поступит человек
+							</li>
+							<li class="two__box-li">Отношение человека к полученной здесь информации.
+							</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Кельтский крест
+						</p>
+						<p class="body__text">
+							<img src="img/kultskii krest.jpg" alt="">
+							Считается известным универсальным ситуативным раскладом. Можно делать на не только реальную, но и предполагаемую,
+							воображаемую ситуацию. Карты от 1-6 описывают ситуацию на текущий момент, с 7-10 - показывает вероятное развитие
+							событий.
+							Что говорят карты:
+							<ul>
+								<li class="two__box-li">
+									Корень проблемы</li>
+								<li class="two__box-li">
+									Начало ситуации</li>
+								<li class="two__box-li">База, причина проблемы</li>
+								<li class="two__box-li">Что ее спровоцировало</li>
+								<li class="two__box-li">Энергия, управляющая сейчас ситуацией</li>
+								<li class="two__box-li">Прогноз на будущие (на текущий момент)</li>
+								<li class="two__box-li">Слабое место</li>
+								<li class="two__box-li">Объективная оценка</li>
+								<li class="two__box-li">Сильное место (что помогает в ситуации)</li>
+								<li class="two__box-li">Итог</li>
+							</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Выбор
+						</p>
+						<p class="body__text">
+							<img  src="img/vibor.jpg" alt="">
+							В данном раскладе рассматриваются два варианта развития событий, в зависимости от выбора человека в загаданной
+							ситуации.
+							Используется 7 карт: по три на каждый выбор , 7ая карта - причина выбора.
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Цель
+						</p>
+						<p class="body__text">
+							<img  src="img/cel.jpg" alt="">
+							Используется, кога есть цель, но не знаете, как ее достичь. 5 карт:
+						<ul>
+							<li class="two__box-li">Kачества, которые нужны для достижения цель</li>
+							<li class="two__box-li">Kачества, которые нужно контролировать и держать</li>
+							<li class="two__box-li">Подводные камни и препятствия</li>
+							<li class="two__box-li">Кто или что может помочь</li>
+							<li class="two__box-li">Итог.</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Анкх
+						</p>
+						<p class="body__text">
+							<img  src="img/ankh.jpg" alt="">
+							Так же считается универсальным распространенным гаданием , наряду с Кельстким крестом. Используется 9 карт.
+							Что говорят карты:
+						<ul>
+							<li class="two__box-li">1 и 2 , суть проблемы, силы , помогающие
+							</li>
+							<li class="two__box-li">Давняя причина
+							</li>
+							<li class="two__box-li">Что спровоцировало ситуацию
+							</li>
+							<li class="two__box-li">Основная энергия, питающая проблему
+							</li>
+							<li class="two__box-li">Закономерности в проблеме
+							</li>
+							<li class="two__box-li">Что предпринять , чтобы решить проблему
+							</li>
+							<li class="two__box-li">Сила, которая может помочь, на которую можно опереться
+							</li>
+							<li class="two__box-li">Итог.
+							</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Гадание на три карты
+						</p>
+						<p class="body__text">
+							<img  src="img/3 proshloe nastoyashee budushee.jpg" alt="">
+							Наиболее простое гадание, на три карты? где:
+						<ul>
+							<li class="two__box-li">Первая карта - прошлое</li>
+							<li class="two__box-li">Вторая карта - настоящее</li>
+							<li class="two__box-li">Третья карта - будущее</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Подкова
+						</p>
+						<p class="body__text">
+							<img  src="img/podkova.jpg" alt="">
+							Расклад делается для трактовки нынешнего положения дел, а так же для просмотра будущего. 7 карт. Отвечает на вопросы:
+						<ul>
+							<li class="two__box-li">Влияние прошлого на наст
+							</li>
+							<li class="two__box-li">Текущая ситуация
+							</li>
+							<li class="two__box-li">Развитие событий в дальнейшем
+							</li>
+							<li class="two__box-li">Как нужно поступить
+							</li>
+							<li class="two__box-li">Влияние обстоятельств на ситуацию
+							</li>
+							<li class="two__box-li">Возможные трудности
+							</li>
+							<li class="two__box-li">Конечный итог.
+							</li>
+						</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section23">
+				<h2 class="page__sub-title">
+					Расклад на отношения, любовь
+				</h2>
+				<div class="page__box">
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Союз
+						</p>
+						<p class="body__text">
+							<img  src="img/souz.jpg" alt="">
+							Расклад делается на любые виды отношений , личнык, деловые, родственные. На 10 карт.
+							Карты отвечают на вопросы:
+						<ul>
+							<li class="two__box-li">Кто вы в этом союзе</li>
+							<li class="two__box-li">Каким вы видите партнера своего</li>
+							<li class="two__box-li">Каким вы видите союз</li>
+							<li class="two__box-li">Что его укрепляет</li>
+							<li class="two__box-li">Что ослабляет</li>
+							<li class="two__box-li">Ваши надежды</li>
+							<li class="two__box-li">Что беспокоит вас</li>
+							<li class="two__box-li">Ваша задача в этом союзе</li>
+							<li class="two__box-li">Задача партнера в этом союзе</li>
+							<li class="two__box-li">Итог союза</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Влюбленные
+						</p>
+						<p class="body__text">
+							<img  src="img/vlublenie.jpg" alt="">
+							Этт расклад подходит для тех, кто находится в поиске любви. Используется 9 карт. Карты отвечают на вопросы:
+						<ul>
+							<li class="two__box-li">к каким отношениям направляет вас ваша духовная цель</li>
+							<li class="two__box-li">какой партнер подходит вам</li>
+							<li class="two__box-li">как вы можете подготовится к отношениям</li>
+							<li class="two__box-li">как обрести мир и покой</li>
+							<li class="two__box-li">пока вы ищите любовь</li>
+							<li class="two__box-li">чувство игривости и его помощь</li>
+							<li class="two__box-li">страсть в ваших отношениях</li>
+							<li class="two__box-li">что прояснить</li>
+							<li class="two__box-li">как привести божественное в отношения</li>
+							<li class="two__box-li">какую радость доставляют вам ваши взаимоотношения</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Прояснение ситуации
+						</p>
+						<p class="body__text">
+							<img  src="img/poyasnenie situacii.jpg" alt="">
+							Если в отношениях что-то не так. На 4 карты. Отвечают на вопросы:
+						<ul>
+							<li class="two__box-li">Положение дел</li>
+							<li class="two__box-li">Что кроется за беспокойством</li>
+							<li class="two__box-li">Kак к вам относятся</li>
+							<li class="two__box-li">Cовет таро</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Ключ к любви
+						</p>
+						<p class="body__text">
+							<img  src="img/key to love.jpg" alt="">На действующие отношения. На 7 карт. Отвечают на вопросы:
+						<ul>
+							<li class="two__box-li">Каковы вы в отношениях</li>
+							<li class="two__box-li">Что ожидаете от отношений</li>
+							<li class="two__box-li">Чего боитесь</li>
+							<li class="two__box-li">Ваша ответственность перед отношениями</li>
+							<li class="two__box-li">Препятствия, что препятствует любви
+							</li>
+							<li class="two__box-li">Правильная модель поведения с партнером
+							</li>
+							<li class="two__box-li">Итог\прогноз.</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Обретение любви
+						</p>
+						<p class="body__text">
+							<img src="img/obretenie love.jpg" alt="">
+							Используется как при новых, начинающихся отношениях, так и при действующих. 9 карт. Ответы:
+						<ul>
+							<li class="two__box-li">Тот, кто встретится</li>
+							<li class="two__box-li">Его чувства к вам</li>
+							<li class="two__box-li">Возможные проблемы</li>
+							<li class="two__box-li">Место партнера в социуме</li>
+							<li class="two__box-li">Секс совместимость</li>
+							<li class="two__box-li">Эмоциональная совместимость</li>
+							<li class="two__box-li">Что вас может разъединить</li>
+							<li class="two__box-li">Перспективы в мат плане</li>
+							<li class="two__box-li">Как можно завоевать парнера.</li>
+						</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section24">
+				<h2 class="page__sub-title">
+					Расклады на работу и деньги
+				</h2>
+				<div class="page__box">
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Как стать богатым
+						</p>
+						<p class="body__text">
+							<img  src="img/how will be  rich.jpg" alt="">
+							При помощи этого гадания можно выявить причины финансовых проблем и выбрать путь к новой финансовой ступени.
+							Используется 5 карт. Карты говорят:
+						<ul>
+							<li class="two__box-li">В чем состоит сегодняшняя проблема</li>
+							<li class="two__box-li">Насколько оправданы ваши расходы</li>
+							<li class="two__box-li">Возможно ли появление денег в ближайшее время</li>
+							<li class="two__box-li">Будет ли у вас стабильный доход</li>
+							<li class="two__box-li">Что нужно изменить в жизни чтобы разбогатеть</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Финансовый расклад
+						</p>
+						<p class="body__text">
+							<img  src="img/finansovi rasklad.jpg" alt="">
+							Это расклад на год. Используется 7 карт.
+							Карты говорят:
+						<ul>
+							<li class="two__box-li">Финансовая ситуация сейчас</li>
+							<li class="two__box-li">Финансы в прошлом</li>
+							<li class="two__box-li">Есть ли долги и кредиты</li>
+							<li class="two__box-li">Тенденция в ближайшее будущие, планы</li>
+							<li class="two__box-li">В чем ваша ошибка в обращении с деньгами</li>
+							<li class="two__box-li">Как улучшить положение</li>
+							<li class="two__box-li">Персективы на год</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Безработица
+						</p>
+						<p class="body__text">
+							<img  src="img/no jobe.jpg" alt="">
+							Название говорит само за себя. При гадании необходимо установить временные четкие рамки. Что говорят карты:
+						<ul>
+							<li class="two__box-li">Почему вы сейчас без работы</li>
+							<li class="two__box-li">Что у вас есть для нахождения работы</li>
+							<li class="two__box-li">Чего у вас не хватает , нет</li>
+							<li class="two__box-li">Что можете реально сделать</li>
+							<li class="two__box-li">В какой сфере прежде всего искать место</li>
+							<li class="two__box-li">Как скоро устроитесь на работу</li>
+							<li class="two__box-li">Шансы найти работу в загаданное время</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Карьера
+						</p>
+						<p class="body__text">
+							<img  src="img/carier.jpg" alt="">
+							Расклад на уже занимаемую вами в настоящий момент должность. Используется 7 карт. Что говорят карты:
+						<ul>
+							<li class="two__box-li">Уровень удовлетворенности работой</li>
+							<li class="two__box-li">Перспективы</li>
+							<li class="two__box-li">Фин прогноз на месяц</li>
+							<li class="two__box-li">Цели ваши</li>
+							<li class="two__box-li">Опасения и надежды</li>
+							<li class="two__box-li">Каким будет настрой ваш на год</li>
+							<li class="two__box-li">Как сложится обстановка</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Бизнес
+						</p>
+						<p class="body__text">
+							<img  src="img/busines.jpg" alt="">
+							Расклад на уже существующий ваш бизнес и его перспективы. Показывает, что ждать, как поступить лучше, какая линия
+							развития ожидает. Используется 10 карт.
+						</p>>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Ваше место в жизни
+						</p>
+						<p class="body__text">
+							<img  src="img/you position in life.jpg" alt="">
+							Подойдет , если вы выбираете путь по жизни, род занятий, профессию, хобби, или просто желаете разобраться в себе
+							лучше.
+							Используется 9 карт. Отвечают на вопросы:
+						<ul>
+							<li class="two__box-li">1,2,3,4 - что вас сбивает и отвлекает от своего пути</li>
+							<li class="two__box-li">5,6,7,8 - что способствует обретению себя</li>
+							<li class="two__box-li">9 - где искать предназначение</li>
+						</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="page__section page__section25">
+				<h2 class="page__sub-title">
+					Психологические расклады
+				</h2>
+				<div class="page__box">
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Душевное равновесие
+						</p>
+						<p class="body__text">
+							<img  src="img/balanse of spirit.jpg" alt="">
+							Поможет разобраться во внутреннем мире человека. 10 карт. Вопросы:
+						<ul>
+							<li class="two__box-li">Взаимодействие с окружающими людьми и манера поведения</li>
+							<li class="two__box-li">Как человек презентует себя миру</li>
+							<li class="two__box-li">Негативные черты характера</li>
+							<li class="two__box-li">Восприятие человеком самого себя</li>
+							<li class="two__box-li">Чему надо научиться</li>
+							<li class="two__box-li">Самая глубинная суть личности</li>
+							<li class="two__box-li">Как мир воспринимает человека</li>
+							<li class="two__box-li">Способность человека поддерживать контакт с другими людьми</li>
+							<li class="two__box-li">Что нужно сделать для гармонии с людьми</li>
+							<li class="two__box-li">Что вредит социальным взаимоотношениям.</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Темное семя
+						</p>
+						<p class="body__text">
+							<img  src="img/dark semya.jpg" alt="">
+							Точный расклад. Выявляет главную проблему человека, даже если он сам о ней не знает. 5 карт. Говорят:
+						<ul>
+							<li class="two__box-li">Темное семя внутри, в чем заключается скрытая внутренняя проблема</li>
+							<li class="two__box-li">Рост семени, до чего может довести , если ничегт не делать</li>
+							<li class="two__box-li">Причина появления</li>
+							<li class="two__box-li">Что питает семя</li>
+							<li class="two__box-li">Как искоренить, бороться</li>
+						</ul>
+						</p>
+					</div>
+					<div class="page__prebox">
+						<p class="body__text-top">
+							Слепое пятно
+						</p>
+						<p class="body__text">
+							<img  src="img/slepoe petno.jpg" alt="">
+							Классический расклад , делается из 11 карт и шута. Место, где оказывается шут - это слепое пятно, главная загадка
+							человека, его личности, то, в чем не признается даже сам себе.
+							Карты говорят:
+						<ul>
+							<li class="two__box-li">Адаптация</li>
+							<li class="two__box-li">Целостность личности</li>
+							<li class="two__box-li">Милосердие</li>
+							<li class="two__box-li">Общение</li>
+							<li class="two__box-li">Творение</li>
+							<li class="two__box-li">Границы я</li>
+							<li class="two__box-li">Честность, по отношению к себе</li>
+							<li class="two__box-li">Любовь</li>
+							<li class="two__box-li">Доверие к себе</li>
+							<li class="two__box-li">Истина</li>
+							<li class="two__box-li">Чем сердце утешается</li>
+						</ul>
+						</p>>
+					</div>
+				</div>
+			</div>
+			<section class="page__section page__section3">
+				<h2 class="page__sub-title">
+					Вопросы и ответы
+				</h2>
+					<p class="quwestion">
+					Сколько стоит Расклад?
+					</p>
+					<p class="answer">
+					- Стоимость индивидуально и зависит от вида расклада и количества карт, в нем задействованных. В целом, от 300 р
+					</p>
+					<p class="quwestion">
+				Что нужно для расклада?
+					</p>
+					<p class="answer">
+					- Необходимо чётко сформулировать свой вопрос к Таро, так же отправить тарологу фото и имя человека, на которого
+					производится Расклад. В момент самого заказчику так же желательно думать о своём вопросе.
+					</p>
+					<p class="quwestion">
+					Когда происходит оплата?
+					</p>
+					<p class="answer">
+					- Оплата происходит после расклада и предоставления ответа таролога.
+					</p>
+					<p class="quwestion">
+					Нужно куда-то ехать на встречу?
+					</p>
+					<p class="answer">
+					- Нет, я работаю удалённо, связь поддерживаю через мессенджеры.
+					</p>
+					<p class="quwestion">
+					Проводите ли вы какие - либо ритуалы (приворот, отворот, снячие порчи, чистка)?
+					</p>
+					<p class="answer">
+					- Нет, я занимаюсь только раскладами Таро.
+					</p>
+					<p class="quwestion">
+					Можно ли гадать на третье лицо?
+					</p>
+					<p class="answer">
+					- Да, можно, но в этом случае требуется фото данного человека и его имя.
+					</p>
+					<p class="quwestion">
+					Сколько по времени длится Расклад?
+					</p>
+					<p class="answer">
+					- По - разному, от 15-20 минут.
+					</p>
+			</section>
+		</main>
+		<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__item items">
+						<p class="footer__text">
+							<p>
+								Дизайнер и исполнитель проэкта Regulus Black. 2022г
+							</p>
+							<p>
+								По вопросам и предложениям обращайтесь regulusblack1991@gmail.com
+							</p>
+						</p>
+					</div>
+				</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
