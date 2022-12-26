@@ -1,7 +1,7 @@
 @import url(../css/zero.css);
 
 html, body {
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:'Times New Roman', Times, serif;
    font-weight: 400;
    font-style: normal;
    height: 100%;
@@ -15,9 +15,8 @@ html, body {
    width: 100%;
    height: 100%;
    background-image: url(../img/фон\ карты3.jpg);
-   
-      background-size: cover;
-      background-position: 50% 50%;
+   background-size: cover;
+   background-position: 50% 50%;
   
 }
 .baner__box{
@@ -49,12 +48,11 @@ html, body {
 
 }
 .baner__text{
-   color: rgba(255, 255, 255, 1);
-   font-style:italic;
-   font-weight: 600;
+color: rgb(247, 162, 255);
+   font-weight: 500;
    line-height: 40px;
    text-align: center;
-   font-size: 40px;
+   font-size: 35px;
    z-index: 8;
    margin: 15px 40px 25px 40px;
 }
@@ -163,21 +161,20 @@ body._lock{
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   font-size: 30px;
+   font-size: 27px;
    line-height: 30px;
 }
 
 .name__text {
    padding: 0px 0px 15px 0px;
-   color: rgba(255, 255, 255, 1);
-      font-style: italic;
-      font-weight: 600;
+color: rgb(247, 162, 255);
+   font-weight: 500;
 }
 
 
 
 .tell__text2 {
-   color: white;
+   color: rgb(221, 0, 255);
    font-size: 20px;
 }
 
@@ -207,32 +204,31 @@ body._lock{
 
 .page__title {
    text-align: center;
-   font-size: 45px;
-   color: rgba(255, 255, 255, 1);
-   font-style:italic;
-   font-weight: 600;
+   font-size: 37px;
+color: rgb(247, 162, 255);
+   font-weight: 500;
    margin: 0px 0px 20px 0px;
 }
 
 .page__text {
-   font-size: 18px;
+   font-size: 19px;
    color: rgba(255, 255, 255, 1);
    font-style:italic;
-   font-weight: 500;
+   font-weight: 400;
    line-height: 28px;
    text-align: justify;
+
 }
 .page__text > p{
-   font-size: 24px;
    text-indent: 30px;
 }
 
 .page__sub-title {
    text-align: center;
-   font-size: 30px;
-   color: rgba(255, 255, 255, 1);
+   font-size: 33px;
+color: rgb(247, 162, 255);
    font-style:italic;
-   font-weight: 600;
+   font-weight: 500;
    margin: 0px 0px 20px 0px;
 }
 
@@ -266,11 +262,9 @@ body._lock{
 }
 
 .menu__link {
-   color: aliceblue;
-   font-size: 27px;
-   color: rgba(255, 255, 255, 1);
-   font-style:italic;
-   font-weight: 600;
+   color: rgb(247, 162, 255);
+   font-size: 24px;
+   font-weight: 400;
 }
 
 .menu__link:hover{
@@ -289,9 +283,8 @@ body._lock{
 
 .menu__sub-link {
    font-weight: 400;
-   font-size: 24px;
-   color: rgba(255, 255, 255, 1);
-   font-style:italic;
+   font-size: 22px;
+   color: rgb(247, 162, 255);
 }
 .menu__sub-link:hover {
    text-decoration: underline;
@@ -370,16 +363,17 @@ box-shadow: 0px 0px 9px 0px rgba(255, 0, 238, 0.8), 0px 0px 20px 0px rgba(0, 0, 
    color: rgba(255, 255, 255, 1);
    font-style:italic;
    font-weight: 500;
-   font-size: 25px;
+   font-size: 22px;
    text-align: center;
+   line-height: 30px;
    margin: 0px 0px 15px 0px;
 }
 .quwestion{
-   color: rgb(252, 216, 246);
+   color: rgb(247, 162, 255);
    margin: 50px 0px 15px 0px;
    font-style:italic;
    font-weight: 500;
-   font-size: 35px;
+   font-size: 30px;
    text-align: center;
 }
 /*-----------------*/
@@ -415,10 +409,9 @@ box-shadow: 0px 0px 40px 0px rgba(255, 0, 217, 0.5), 0px 0px 15px 1px rgb(0, 0, 
 
 .body__text-top {
    margin: 15px 0px 30px 0px;
-   color: rgba(255, 255, 255, 1);
-   font-style:italic;
+   color: rgb(247, 162, 255);
    font-weight: 500;
-   font-size: 29px;
+   font-size: 25px;
    text-align: center;
 }
 
@@ -427,7 +420,7 @@ box-shadow: 0px 0px 40px 0px rgba(255, 0, 217, 0.5), 0px 0px 15px 1px rgb(0, 0, 
    font-style:italic;
    font-weight: 400;
    text-align: justify;
-   font-size: 24px;
+   font-size: 19px;
    line-height: 30px;
 }
 
@@ -443,10 +436,10 @@ box-shadow: 0px 0px 40px 0px rgba(255, 0, 217, 0.5), 0px 0px 15px 1px rgb(0, 0, 
 .two__box-li {
    color: rgba(255, 255, 255, 1);
    font-style:italic;
-   font-weight: 400;
-   font-size: 24px;
-   line-height: 28px;
-   margin: 20px 0px 0px 20px;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 22px;
+   margin: 15px 0px 0px 20px;
 }
 
 .two__box-li::before {
@@ -492,19 +485,19 @@ font-size: 12px;
 /*---------------*/
 @media(max-width: 766px) {
    .answer{
-   color: rgba(255, 255, 255, 1);
+   color: rgb(255, 255, 255);
    font-style:italic;
-   font-weight: 400;
-   font-size: 17px;
+   font-weight: 300;
+   font-size: 16px;
    text-align: center;
    margin: 0px 0px 7px 0px;
 }
 .quwestion{
-   color: rgb(252, 216, 246);
+   color: rgb(247, 162, 255);
    margin: 30px 0px 7px 0px;
    font-style:italic;
    font-weight: 400;
-   font-size: 20px;
+   font-size: 19px;
    text-align: center;
 }
    .page__prebox{
