@@ -151,48 +151,6 @@ if (menuContacts) {
 
 
 
-
-
-
-
-let ava = document.querySelector('#ava');
-
-function hiddenAva() {
-   ava.classList.add('img__ava1');
-}
-
-
-
-function showAva() {
-   ava.classList.remove('img__ava1');
-}
-
-function changeAva() {
-   document.querySelector('#ava').src = "img/img/colage1.jpg";
-}
-
-function remuveAva() {
-   document.querySelector('#ava').src = "img/ava3.jpg";
-}
-
-let x = 1;
-function avaChange() {
-   if (x == 1) {
-      hiddenAva();
-      setTimeout(changeAva, 8000);
-      setTimeout(showAva, 8000);
-      setTimeout(hiddenAva, 16000);
-      setTimeout(remuveAva, 24000);
-      setTimeout(showAva, 24000);
-   } 
-}
-
-
-
-
-
-
-
 let baner = document.getElementById('baner');
 
 function showContetn() {
@@ -203,7 +161,6 @@ function showContetn() {
       if (op < 0.001) {
          clearInterval(id);
          baner.remove();
-         avaChange();
       } else {
          op = op - 0.01;
          baner.style.opacity = op;
